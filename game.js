@@ -68,7 +68,7 @@ const checkAnswer = (currentLevel) => {
       $("body").removeClass("game-over");
     }, 200);
 
-    $("#level-title").text("GAME OVER, Press Any Key to Restart");
+    $("#level-title").text("YOU'RE SHIT!!! Press Any Key to Restart");
 
     startOver();
   }
